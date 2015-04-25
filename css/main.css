@@ -21,7 +21,7 @@ html {
  }
 .flip:hover{
   transform: rotate(180deg);
-  transition: transform 2s;
+  transition: transform .3s;
 
 }
 
