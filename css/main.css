@@ -1,4 +1,4 @@
-/*! HTML5 Boilerplate v5.1.0 | MIT License | https://html5boilerplate.com/ */
+/*! HTML5 Boilerplate v5.2.0 | MIT License | https://html5boilerplate.com/ */
 
 /*
  * What follows is the result of much research on cross-browser styling.
@@ -14,15 +14,6 @@ html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
-}
- body{
-   background-color: aquamarine;
-   background-image: url(http://i.ytimg.com/vi/4Jl3LZu3YWQ/maxresdefault.jpg)
- }
-.flip:hover{
-  transform: rotate(180deg);
-  transition: transform .3s;
-
 }
 
 /*
@@ -206,6 +197,7 @@ textarea {
 
 @media print,
        (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
        (min-resolution: 120dpi) {
     /* Style adjustments for high resolution devices */
 }
@@ -286,3 +278,21 @@ textarea {
         page-break-after: avoid;
     }
 }
+
+p{
+        color:green;         
+        }
+        .special{
+            color:blue;
+            border:2px solid orange;
+            transition:all .3s;
+        }
+        .special:hover{
+            border-width:10px;
+            border-color:yellow;
+            -webkit-transform:rotate(90deg);
+
+
+        }
+
+
